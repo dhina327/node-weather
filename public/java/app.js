@@ -1,6 +1,6 @@
 
 
-console.log("client data loaded sucessfully... ")
+console.log("client data loaded sucessfully.... ")
 
 
 
@@ -17,7 +17,7 @@ weatherform.addEventListener('submit',(e) => {
     message2.textContent = ' '
 
 
-    fetch("http://localhost:3000/weather?address=" + output).then((response) => {
+    fetch("/weather?address=" + output).then((response) => {
 
         response.json().then((data) => {
             
