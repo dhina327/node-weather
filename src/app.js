@@ -23,7 +23,7 @@ app.use(express.static(overload))
 
 app.get('',(req,res) => {
     res.render('index',{
-        title:'Weather',
+        title:'Weathers',
         king:'dhina'
     })
 })
